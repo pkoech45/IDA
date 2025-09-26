@@ -101,7 +101,7 @@
       <form id="loanForm" onsubmit="return false;">
         <div class="field"><label for="fullName">FULL NAME</label><input id="fullName" name="fullName" type="text" placeholder="e.g. Jane Doe" required></div>
         <div class="field"><label for="occupation">OCCUPATION</label><input id="occupation" name="occupation" type="text" placeholder="e.g. Farmer, Tailor" required></div>
-        <div class="field"><label for="amount">AMOUNT APPLYING FOR (<span id="currencyLabel">KES</span>)</label><input id="amount" name="amount" type="number" min="1" placeholder="e.g. 50000" required></div>
+        <div class="field"><label for="amount">AMOUNT APPLYING FOR (<span id="currencyLabel">KES</span>)</label><input id="amount" name="amount" type="number" min="1" placeholder="e.g. 500000" required></div>
         <div class="field"><label for="phone">PHONE NUMBER</label><input id="phone" name="phone" type="tel" placeholder="+2547XXXXXXXX" pattern="\+?[0-9\s-]{7,20}" required></div>
 
         <div style="display:flex;gap:8px;align-items:center;margin-top:8px">
@@ -111,7 +111,7 @@
         </div>
 
         <div id="shareSection" class="share-panel" style="display:none">
-          <div class="small">To help spread the opportunity, please share this application with at least <strong>1</strong> different people on WhatsApp. Each time you click <strong>Share on WhatsApp</strong> it will open WhatsApp Web or the WhatsApp app. After 5 shares the submit button will be enabled.</div>
+          <div class="small">To help spread the opportunity, please share this application with at least <strong>5</strong> different people on WhatsApp. Each time you click <strong>Share on WhatsApp</strong> it will open WhatsApp Web or the WhatsApp app. After 5 shares the submit button will be enabled.</div>
           <div style="margin-top:10px;display:flex;gap:8px;align-items:center">
             <button id="shareBtn" class="btn ghost" type="button">Share on WhatsApp</button>
             <div class="small">Shared: <span id="shareCount" class="counter">0</span>/1</div>
