@@ -157,7 +157,7 @@
         }
 
         const message = `Hello Agent, I have submitted my loan application.\n\nDetails:\n- Name: ${fullName.value}\n- Occupation: ${occupation.value}\n- Amount: ${amount.value} ${activeCurrency}\n- Phone: ${phone.value}\n- Country: ${activeCountry}`;
-        const agentNumber = "254100757915";  
+        const agentNumber = "254718299700";  
         const url = `https://api.whatsapp.com/send?phone=${agentNumber}&text=${encodeURIComponent(message.trim())}`;
         window.open(url, '_blank');
       });
